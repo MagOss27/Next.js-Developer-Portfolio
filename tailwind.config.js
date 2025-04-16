@@ -7,6 +7,7 @@ module.exports = {
     // Ou, se estiver usando a pasta src:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
