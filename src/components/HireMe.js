@@ -20,5 +20,3 @@ function HireMe() {
 }
 
 export default HireMe
-
-//1:30

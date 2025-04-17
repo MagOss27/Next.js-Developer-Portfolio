@@ -63,7 +63,12 @@ function about() {
                         </div>
                         <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light'>
                             <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-light' />
-                            <Image src={profilePic} alt='Codebucks' className='w-full h-auto rounded-2xl' />
+                            <Image src={profilePic} alt='Codebucks' className='w-full h-auto rounded-2xl'
+                                priority
+                                sizes='(max-width: 768px) 100vw,
+                           (max-width:1200px) 50vw,
+                           33vw'
+                            />
                         </div>
 
                         <div className='col-span-2 flex flex-col items-end justify-between'>

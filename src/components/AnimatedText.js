@@ -50,5 +50,3 @@ const AnimatedText = ({ text, className = "" }) => {
 }
 
 export default AnimatedText
-
-//1:02

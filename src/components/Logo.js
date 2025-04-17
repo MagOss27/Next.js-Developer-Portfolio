@@ -22,7 +22,7 @@ function Logo() {
           transition: { duration: 1, repeat: Infinity }
         }}
       >
-        CB
+        Oss
       </MotionLink>
     </div>
   )

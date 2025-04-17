@@ -71,4 +71,3 @@ const NavBar = () => {
 
 export default NavBar
 
-//3:49:40
