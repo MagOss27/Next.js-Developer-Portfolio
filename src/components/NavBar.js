@@ -121,10 +121,10 @@ const NavBar = () => {
                             <motion.a href="https://twitter.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mr-3 sm:mx-1">
                                 <TwitterIcon />
                             </motion.a >
-                            <motion.a href="https://github.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">
+                            <motion.a href="https://github.com/MagOss27" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">
                                 <GithubIcon />
                             </motion.a >
-                            <motion.a href="https://www.linkedin.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">
+                            <motion.a href="https://www.linkedin.com/in/magnus-oss-6b018a297/" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">
                                 <LinkedInIcon />
                             </motion.a >
                             <motion.a href="https://www.pinterest.com" target={"_blank"} whileHover={{ y: -2 }} whileTap={{ scale: 0.9 }} className="w-6 mx-3 sm:mx-1">

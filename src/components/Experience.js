@@ -30,12 +30,10 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
 
 function Experience() {
     const ref = useRef(null)
-    const { scrollYProgress } = useScroll(
-        {
-            target: ref,
-            offset: ["start end", "center start "]
-        }
-    )
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["start end", "center start "],
+    })
 
     return (
         <div className='my-64'>
@@ -45,44 +43,22 @@ function Experience() {
                 <motion.div
                     style={{ scaleY: scrollYProgress }}
                     className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light 
-                    md:w-[2px] md:left-[30px] xs:left-[20px]
-                    ' />
+                    md:w-[2px] md:left-[30px] xs:left-[20px]'
+                />
 
                 <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
                     <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="https://www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's
-                    search engine, including improving the accuracy and relevance of search results and
-                    developing new tools for data analysis and visualization."
+                        position="Suportte Jr" company="Tuna Pagamentos"
+                        companyLink="https://tuna.uy/"
+                        time="2024-Present" address="Florianópolis, SC"
+                        work="Worked on a team responsible for optimizing payment processes and increasing approval rates, alongside reducing fraud costs."
                     />
 
                     <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="https://www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's
-                    search engine, including improving the accuracy and relevance of search results and
-                    developing new tools for data analysis and visualization."
-                    />
-
-                    <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="https://www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's
-                    search engine, including improving the accuracy and relevance of search results and
-                    developing new tools for data analysis and visualization."
-                    />
-
-                    <Details
-                        position="Software Engineer" company="Google"
-                        companyLink="https://www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's
-                    search engine, including improving the accuracy and relevance of search results and
-                    developing new tools for data analysis and visualization."
+                        position="Administrative Assistant" company="Reivax"
+                        companyLink="https://www.reivax.com.br"
+                        time="2021-2023" address="Florianópolis, SC"
+                        work="Assisted in various administrative tasks, improving office efficiency and supporting daily operations."
                     />
                 </ul>
             </div>

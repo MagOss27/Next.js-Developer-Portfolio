@@ -38,20 +38,26 @@ function Skills() {
                     whileInView={{ x: 0, y: 0, transition: { duration: 1.5 } }}
                     viewport={{ once: false, amount: 0.5 }}
                 >
-                    Web
-
+                    Tech & Biz
                 </motion.div >
 
                 <Skill name="HTML" x="-25vw" y="2vw" />
-                <Skill name="CSS" x="-5vw" y="-10vw" />
-                <Skill name="JavaScript" x="20vw" y="6" />
+                <Skill name="JavaScript" x="-5vw" y="-10vw" />
                 <Skill name="ReactJS" x="0" y="12vw" />
                 <Skill name="NextJS" x="-20vw" y="-15vw" />
                 <Skill name="Java" x="15vw" y="-12vw" />
-                <Skill name="Web Design" x="32vw" y="-5vw" />
+                <Skill name="Web" x="32vw" y="-5vw" />
                 <Skill name="Figma" x="0vw" y="-20vw" />
                 <Skill name="MySQL" x="-25vw" y="18vw" />
-                <Skill name="Tailwind CSS" x="18vw" y="18vw" />
+                <Skill name="Tailwind" x="18vw" y="18vw" />
+
+                {/* Novas skills em Administração e Office */}
+                <Skill name="Excel" x="-30vw" y="-8vw" />
+                <Skill name="PowerPoint" x="-10vw" y="22vw" />
+                <Skill name="Word" x="10vw" y="-22vw" />
+                <Skill name="Analysis" x="28vw" y="10vw" />
+                <Skill name="Projects" x="-30vw" y="-20vw" />
+                <Skill name="Admin" x="28vw" y="-18vw" />
 
             </div>
         </>
@@ -59,5 +65,3 @@ function Skills() {
 }
 
 export default Skills
-
-//5:14

@@ -9,7 +9,7 @@ function Footer() {
                 <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
 
                 <div className="flex items-center lg:py-2">
-                    Build With <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>
+                    Built with <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>
                     by&nbsp;
                     <Link
                         href="https://devdreaming.com"
@@ -17,7 +17,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        CodeBucks
+                        Magnus Admin & Dev
                     </Link>
                 </div>
 
@@ -27,7 +27,7 @@ function Footer() {
                     rel="noopener noreferrer"
                     className="underline underline-offset-2"
                 >
-                    Say hello
+                    Let's Connect & Innovate
                 </Link>
             </Layout>
         </footer>
