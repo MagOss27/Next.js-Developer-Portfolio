@@ -56,10 +56,10 @@ function About() {
                                 I have strong interpersonal skills that allow me to thrive in collaborative environments, contributing with creative and innovative ideas. My ability to quickly adapt to new settings is one of my greatest strengths. I am organized, proactive, and have a natural curiosity for learning new technologies and skills.
                             </p>
                             <p className='font-medium'>
-                                Currently, I’m working at Tuna, a company that provides excellent opportunities for both personal and professional growth. Tuna specializes in optimizing online payments by improving approval rates and reducing fraud-related costs.
+                                Currently, I&apos;m working at Tuna, a company that provides excellent opportunities for both personal and professional growth. Tuna specializes in optimizing online payments by improving approval rates and reducing fraud-related costs.
                             </p>
                             <p className='mt-4 font-medium'>
-                                If you're interested in my journey and skill set, feel free to connect with me on LinkedIn.
+                                If you&apos;re interested in my journey and skill set, feel free to connect with me on LinkedIn.
                             </p>
                         </div>
 

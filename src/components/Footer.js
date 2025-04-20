@@ -17,7 +17,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Magnus Admin & Dev
+                        Magnus Admin &amp; Dev
                     </Link>
                 </div>
 
@@ -27,7 +27,7 @@ function Footer() {
                     rel="noopener noreferrer"
                     className="underline underline-offset-2"
                 >
-                    Let's Connect & Innovate
+                    Let&apos;s Connect &amp; Innovate
                 </Link>
             </Layout>
         </footer>
