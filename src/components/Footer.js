@@ -17,7 +17,7 @@ function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Magnus Admin &amp; Dev
+                        Magnus Adm &amp; Dev
                     </Link>
                 </div>
 
